@@ -8,8 +8,9 @@
 import Foundation
 
 struct EndPoint {
-    static let baseUrl = "https://pixabay.com/api/?"
-    
-    static let apiKey = "13197033-03eec42c293d2323112b4cca6"
+    static let apiKey = "0e08e76eff544231b992197c7c7c22a9"
+    static let baseUrl = "https://www.flickr.com/services/rest/"
+    static let photoMethod = "flickr.photos.search"
+    static let imagesBaseUrl = "https://live.staticflickr.com/"
 
 }
