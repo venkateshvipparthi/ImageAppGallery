@@ -144,7 +144,6 @@
 				84A6C017288159FD008A23CE /* Presentation */,
 				84A6BFE52881594B008A23CE /* AppDelegate.swift */,
 				84A6BFE72881594B008A23CE /* SceneDelegate.swift */,
-				84A6BFE92881594B008A23CE /* SearchViewController.swift */,
 				84A6BFEE2881594D008A23CE /* Assets.xcassets */,
 				84A6BFF02881594D008A23CE /* LaunchScreen.storyboard */,
 				84A6BFF32881594D008A23CE /* Info.plist */,
@@ -303,6 +302,7 @@
 			children = (
 				84A6C05028817C3A008A23CE /* SearchViewStates.swift */,
 				84A6C05228817C74008A23CE /* SearchViewModel.swift */,
+				84A6BFE92881594B008A23CE /* SearchViewController.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
