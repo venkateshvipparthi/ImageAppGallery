@@ -19,6 +19,8 @@
 		84A6C01C28815D78008A23CE /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C01B28815D78008A23CE /* SearchRepository.swift */; };
 		84A6C01E28815D94008A23CE /* GalleryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C01D28815D94008A23CE /* GalleryRepository.swift */; };
 		84A6C02028815E0B008A23CE /* ImageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C01F28815E0B008A23CE /* ImageRecord.swift */; };
+		84A6C024288166FA008A23CE /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C023288166FA008A23CE /* SearchUseCase.swift */; };
+		84A6C02628816717008A23CE /* GalleryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C02528816717008A23CE /* GalleryUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		84A6C01B28815D78008A23CE /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		84A6C01D28815D94008A23CE /* GalleryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryRepository.swift; sourceTree = "<group>"; };
 		84A6C01F28815E0B008A23CE /* ImageRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecord.swift; sourceTree = "<group>"; };
+		84A6C023288166FA008A23CE /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
+		84A6C02528816717008A23CE /* GalleryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,8 @@
 		84A6C01928815CF6008A23CE /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				84A6C023288166FA008A23CE /* SearchUseCase.swift */,
+				84A6C02528816717008A23CE /* GalleryUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -315,6 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A6C02628816717008A23CE /* GalleryUseCase.swift in Sources */,
+				84A6C024288166FA008A23CE /* SearchUseCase.swift in Sources */,
 				84A6BFEA2881594B008A23CE /* ViewController.swift in Sources */,
 				84A6BFE62881594B008A23CE /* AppDelegate.swift in Sources */,
 				84A6BFE82881594B008A23CE /* SceneDelegate.swift in Sources */,
