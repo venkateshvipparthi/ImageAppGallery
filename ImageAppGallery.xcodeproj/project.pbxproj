@@ -29,6 +29,7 @@
 		84A6C03628816BA4008A23CE /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C03528816BA4008A23CE /* ApiRequest.swift */; };
 		84A6C03828816D8B008A23CE /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C03728816D8B008A23CE /* URLRequest+Extension.swift */; };
 		84A6C03C28816E47008A23CE /* ImagesResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C03B28816E47008A23CE /* ImagesResponseDTO.swift */; };
+		84A6C042288179EF008A23CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A6C044288179EF008A23CE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		84A6C03528816BA4008A23CE /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		84A6C03728816D8B008A23CE /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 		84A6C03B28816E47008A23CE /* ImagesResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesResponseDTO.swift; sourceTree = "<group>"; };
+		84A6C043288179EF008A23CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 		84A6C017288159FD008A23CE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				84A6C03D28817999008A23CE /* Utility */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -244,6 +247,22 @@
 				84A6C03728816D8B008A23CE /* URLRequest+Extension.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		84A6C03D28817999008A23CE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				84A6C03F288179CA008A23CE /* Localization */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		84A6C03F288179CA008A23CE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				84A6C044288179EF008A23CE /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A6BFF22881594D008A23CE /* LaunchScreen.storyboard in Resources */,
+				84A6C042288179EF008A23CE /* Localizable.strings in Resources */,
 				84A6BFEF2881594D008A23CE /* Assets.xcassets in Resources */,
 				84A6BFED2881594B008A23CE /* Main.storyboard in Resources */,
 			);
@@ -443,6 +463,14 @@
 				84A6BFF12881594D008A23CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84A6C044288179EF008A23CE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A6C043288179EF008A23CE /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ImageAppGallery
+
+  Created by Venkat on 15/07/2022.
+  
+*/
+
+
+// Titles
+
+"alert" = "Alert";
+"search" = "Search";
+"gallery" = "Gallery";
+
+
+// API Errors
+"empty_response" = "Empty Response";
+"request_failed" = "Request Failed";
+"invalid_data" = "Invalid Data";
+"response_unsucessful" = "Response Unsucessful";
+"invalid_search" = "Pls Enter Keyword To Search";
+"parsing_failed" = "Data Parsing Failed";
