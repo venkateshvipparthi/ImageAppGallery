@@ -2,7 +2,7 @@
 //  SearchRepository.swift
 //  ImageAppGallery
 //
-//  Created by Admin on 15/07/2022.
+//  Created by Venkat on 15/07/2022.
 //
 
 import Foundation
