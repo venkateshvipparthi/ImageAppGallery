@@ -36,6 +36,9 @@
 		84A6C04E28817B85008A23CE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C04D28817B85008A23CE /* MainCoordinator.swift */; };
 		84A6C05128817C3A008A23CE /* SearchViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C05028817C3A008A23CE /* SearchViewStates.swift */; };
 		84A6C05328817C74008A23CE /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C05228817C74008A23CE /* SearchViewModel.swift */; };
+		84A6C0562881812A008A23CE /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0552881812A008A23CE /* GalleryViewController.swift */; };
+		84A6C0582881814E008A23CE /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0572881814E008A23CE /* GalleryCollectionViewCell.swift */; };
+		84A6C05A28818179008A23CE /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C05928818179008A23CE /* GalleryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,9 @@
 		84A6C04D28817B85008A23CE /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		84A6C05028817C3A008A23CE /* SearchViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewStates.swift; sourceTree = "<group>"; };
 		84A6C05228817C74008A23CE /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		84A6C0552881812A008A23CE /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		84A6C0572881814E008A23CE /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		84A6C05928818179008A23CE /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,7 @@
 		84A6C017288159FD008A23CE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				84A6C054288180C5008A23CE /* Gallery */,
 				84A6C04F28817C1B008A23CE /* Search */,
 				84A6C04C28817B73008A23CE /* Coordinator */,
 				84A6C03D28817999008A23CE /* Utility */,
@@ -305,6 +312,16 @@
 				84A6BFE92881594B008A23CE /* SearchViewController.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		84A6C054288180C5008A23CE /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				84A6C0552881812A008A23CE /* GalleryViewController.swift */,
+				84A6C0572881814E008A23CE /* GalleryCollectionViewCell.swift */,
+				84A6C05928818179008A23CE /* GalleryViewModel.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A6C05328817C74008A23CE /* SearchViewModel.swift in Sources */,
+				84A6C0582881814E008A23CE /* GalleryCollectionViewCell.swift in Sources */,
 				84A6C03028816A92008A23CE /* ServiceManager.swift in Sources */,
 				84A6C04728817A7B008A23CE /* Constants.swift in Sources */,
 				84A6C02628816717008A23CE /* GalleryUseCase.swift in Sources */,
@@ -449,6 +467,7 @@
 				84A6BFE82881594B008A23CE /* SceneDelegate.swift in Sources */,
 				84A6C01E28815D94008A23CE /* GalleryRepository.swift in Sources */,
 				84A6C02E2881697D008A23CE /* DefaultGalleryRepository.swift in Sources */,
+				84A6C05A28818179008A23CE /* GalleryViewModel.swift in Sources */,
 				84A6C02028815E0B008A23CE /* ImageRecord.swift in Sources */,
 				84A6C05128817C3A008A23CE /* SearchViewStates.swift in Sources */,
 				84A6C01C28815D78008A23CE /* SearchRepository.swift in Sources */,
@@ -458,6 +477,7 @@
 				84A6C03228816AC5008A23CE /* EndPoints.swift in Sources */,
 				84A6C02C2881695F008A23CE /* DefaultSearchRepository.swift in Sources */,
 				84A6C03628816BA4008A23CE /* ApiRequest.swift in Sources */,
+				84A6C0562881812A008A23CE /* GalleryViewController.swift in Sources */,
 				84A6C03C28816E47008A23CE /* ImagesResponseDTO.swift in Sources */,
 				84A6C04928817AC5008A23CE /* Storyboardable.swift in Sources */,
 				84A6C03428816B36008A23CE /* APIError.swift in Sources */,
